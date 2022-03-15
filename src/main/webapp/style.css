@@ -1,0 +1,148 @@
+body {
+    background-color: #E3CEF6;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+
+.container {
+    position: relative;
+    width: 400px;
+    height: 270px;
+    margin: 200px auto 0;
+    background-image: url('http://www.imgbase.info/images/safe-wallpapers/digital_art/1_miscellaneous_digital_art/41750_1_miscellaneous_digital_art_simple_dark_shapes.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position-y: -600%;
+    background-color: #FFF;
+    border-radius: 4px;
+    color: #FFF;
+    box-shadow: 0px 0px 50px 5px rgba(0, 0, 0, 0.5);
+}
+
+.container-plataform {
+    position: relative;
+    width: 400px;
+    height: 270px;
+    margin: 200px auto 0;
+    background-color: #FFF;
+    border-radius: 4px;
+    /*color: #FFF;*/
+    box-shadow: 0px 0px 50px 5px rgba(0, 0, 0, 0.5);
+}
+
+.subscribe-wrapper {
+    position: absolute;
+    left: -30px;
+    right: -30px;
+    height: 200px;
+    padding: 30px;
+    background-image: url('https://i.imgur.com/MRjF1PL.png?1');
+    background-position-x: 272%;
+    background-position-y: -1px;
+    background-repeat: no-repeat;
+    background-color: #FFF;
+    border-radius: 4px;
+    color: #333;
+    box-shadow: 0px 0px 60px 5px rgba(0, 0, 0, 0.4);
+}
+
+.subscribe-wrapper:after {
+    position: absolute;
+    content: "";
+    right: -10px;
+    bottom: 71px;
+    width: 0;
+    height: 0;
+    border-left: 0px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #7149c7;
+}
+
+.subscribe-wrapper h4 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    line-height: 28px;
+}
+
+.subscribe-wrapper-plataform {
+    position: absolute;
+    left: -30px;
+    right: -30px;
+    height: 200px;
+    padding: 30px;
+    background-color: #FFF;
+    border-radius: 4px;
+    color: #333;
+    box-shadow: 0px 0px 60px 5px rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+
+.subscribe-wrapper-plataform:after {
+    position: absolute;
+    content: "";
+    right: -10px;
+    bottom: 71px;
+    width: 0;
+    height: 0;
+    border-left: 0px solid transparent;
+    border-right: 10px solid transparent;
+}
+
+.subscribe-wrapper-plataform h2 {
+    text-align: center;
+    font-size: 22px;
+    letter-spacing: 2px;
+    line-height: 28px;
+}
+
+a {
+    margin-top: 15px;
+    margin-right: 20px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 17px;
+    letter-spacing: 1px;
+    color: #7149c7;
+}
+
+.select-movie  {
+    position: absolute;
+    bottom: 25px;
+    border: none;
+    border-bottom: 1px solid #d4d4d4;
+    padding: 10px;
+    width: 65%;
+    background: transparent;
+    transition: all .25s ease;
+}
+
+.select-movie:focus {
+    outline: none;
+    border-bottom: 1px solid #a77cf4;
+}
+
+.signin {
+    position: absolute;
+    border: 1px solid transparent;
+    border-radius: 30px 0 0 30px;
+    background-color: #a77cf4;
+    color: #FFF;
+    padding: 12px 25px;
+    display: inline-block;
+    font-size: 13px;
+    /*font-weight: bold;*/
+    letter-spacing: 2px;
+    right: -10px;
+    bottom: 30px;
+    cursor: pointer;
+    transition: all .25s ease;
+    box-shadow: -5px 6px 20px 0px rgba(51, 51, 51, 0.4);
+}
+
+.signin:hover {
+    background-color: #8e62dc;
+}
